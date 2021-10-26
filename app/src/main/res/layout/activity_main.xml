@@ -11,127 +11,113 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintBottom_toTopOf="@+id/btnEight"
+        app:layout_constraintEnd_toStartOf="@+id/btnSix"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFour"
+        app:layout_constraintTop_toBottomOf="@+id/btnTwo" />
 
     <Button
         android:id="@+id/btnOne"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintBottom_toTopOf="@+id/btnFour"
+        app:layout_constraintEnd_toStartOf="@+id/btnTwo"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnNine"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="9"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtTurnView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnEight"
+        app:layout_constraintTop_toBottomOf="@+id/btnSix" />
 
     <Button
         android:id="@+id/btnTwo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="16dp"
         android:text="2"
         app:layout_constraintBottom_toTopOf="@+id/btnFive"
         app:layout_constraintEnd_toStartOf="@+id/btnThree"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnOne"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnThree"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="3"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnSix"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnTwo"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnEight"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="16dp"
         android:text="8"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtTurnView"
         app:layout_constraintEnd_toStartOf="@+id/btnNine"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnSeven"
-        app:layout_constraintTop_toBottomOf="@+id/btnFive"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFive" />
 
     <Button
         android:id="@+id/btnSeven"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintBottom_toTopOf="@+id/txtTurnView"
+        app:layout_constraintEnd_toStartOf="@+id/btnEight"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFour" />
 
     <Button
         android:id="@+id/btnFour"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginEnd="16dp"
         android:text="4"
         app:layout_constraintBottom_toTopOf="@+id/btnSeven"
         app:layout_constraintEnd_toStartOf="@+id/btnFive"
-        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOne"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintTop_toBottomOf="@+id/btnOne" />
 
     <Button
         android:id="@+id/btnSix"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="16dp"
         android:text="6"
         app:layout_constraintBottom_toTopOf="@+id/btnNine"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnFive"
-        app:layout_constraintTop_toBottomOf="@+id/btnThree"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintTop_toBottomOf="@+id/btnThree" />
 
     <TextView
         android:id="@+id/txtTurnView"
         android:layout_width="194dp"
         android:layout_height="65dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Your Turn!"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774" />
+        app:layout_constraintVertical_bias="0.737" />
 
     <Button
         android:id="@+id/btnNewGame"
@@ -142,8 +128,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.591"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintTop_toBottomOf="@+id/txtTurnView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
